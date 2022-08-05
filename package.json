@@ -1,0 +1,28 @@
+{
+  "name": "interactive-card-details-form",
+  "version": "1.0.0",
+  "description": "Frontend Mentor challenge",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "sass source/main.scss css/style.css -w --no-source-map",
+    "devserver": "live-server",
+    "start": "npm-run-all --parallel watch:sass devserver"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ClaytonDewey/interactive-card-details-form.git"
+  },
+  "author": "Clayton Dewey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ClaytonDewey/interactive-card-details-form/issues"
+  },
+  "homepage": "https://github.com/ClaytonDewey/interactive-card-details-form#readme",
+  "dependencies": {
+    "live-server": "^1.2.2"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.5",
+    "sass": "^1.54.3"
+  }
+}

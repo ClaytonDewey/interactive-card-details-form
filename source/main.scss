@@ -1,20 +1,21 @@
 *,
 *::after,
 *::before {
-  margin: 0;
-  padding: 0;
-  box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
 }
 
 html,
 body {
-  margin: 0px auto;
-  width: 100%;
-  box-sizing: border-box;
+    margin: 0px auto;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 html {
-  font-size: 62.5%;
+  // This defines what 1rem is.
+  font-size: 62.5%; // 1rem = 10px;
   font-style: normal;
   font-weight: normal;
 }
@@ -31,5 +32,5 @@ body {
 }
 
 .attribution a {
-  color: hsl(228deg, 45%, 44%);
+  color: hsl(228, 45%, 44%);
 }
